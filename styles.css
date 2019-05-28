@@ -16,12 +16,19 @@ body {
     color: #fff;
 }
 
+.inner img {
+  display: inline-block;
+  width: 235px;
+  margin-top: 68px;
+  margin-left: 25px;
+}
+
 .inner h1 {
+  display: inline-block;
   font-weight: normal;
   font-size: 39px;
-  margin-top: -8px;
-  margin-bottom: 0px;
-  margin-left: 5px;
+  margin-left: 20px;
+
 
 }
 .inner h3 {
@@ -36,8 +43,9 @@ body {
 
 .about-text p {
   position: relative;
+  font-family: "lato", sans-serif;
   font-size: 16px;
-  line-height: 1.35em;
+  line-height: 1.75em;
   text-align: justify;
 }
 
@@ -56,4 +64,9 @@ body {
 .socials {
   text-align: right;
   margin-right: 20px;
+}
+
+.socials img {
+  font-family: "awesome", sans-serif;
+
 }
