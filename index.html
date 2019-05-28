@@ -27,12 +27,15 @@
 
         <section class="about-me"> <!-- About me -->
             <div class="inner">
-              <img src="./pics/author.png" alt="Smith Anderson"/>
+
+              <img src="./pics/author.png" alt="Smith Anderson" class="author"/>
+
               <div class="about-text">
                 <h1>Smith Anderson</h1>
                 <h3>Illustrator & Character Designer</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
               </div>
+
               <div class="socials">
                 <img src="pics/facebook.png" alt="facebook"/>
                 <img src="pics/twitter.png" alt="twitter"/>
@@ -41,15 +44,45 @@
                 <img src="pics/linkedin.png" alt="linkedin"/>
                 <img src="pics/dribbble.png" alt="dribble">
               </div>
+
             </div>
         </section>
 
 
-        <section> <!-- Contacts -->
+        <section class="contact_me"> <!-- Contacts -->
 
-            <aside>
+            <div class="contact_div">
+              <div>
+
+                <h1>Get In Touch</h1>
+                <h3>In order to get in touch use the contact form bellow:</h3>
+                <ul>
+                  <li><label for="name">
+                    <input id="name" type="text" name="name" required value="Name (required)">
+                  </label></li>
+
+                  <li><label for="email">
+                    <input id="email" type="text" name="email" required value="Email (required)">
+                  </label></li>
+
+                  <li><label for="subject">
+                  <input id="subject" type="text" name="subject" value="Subject">
+                  </label></li>
+
+                  <li><label for="message">
+                    <textarea id="message" name="message" rows="5" cols="20">Wrire your message here...</textarea>
+                  </label></li>
+
+                  <li><label for="send">
+                    <input id="send" type="submit" name="send" value="Send">
+                  </label></li>
+                </ul>
+              </div>
+
+              <aside>
                 <p>Quisque Hendrerit: purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae. </p>
-            </aside>
+              </aside>
+            </div>
         </section>
 
         <footer>
