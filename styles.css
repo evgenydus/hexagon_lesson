@@ -1,5 +1,5 @@
 body {
-    font-family: "Maven pro", sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 .about-me {
@@ -74,15 +74,136 @@ body {
 .contact_div {
   border-top: 1px solid #2b2b2b;
   border-bottom: 1px solid #2b2b2b;
+}
 
+.get-in-touch {
+  display: inline-block;
+  width: 100%;
+  margin: 10px 0px;
 }
-.contact_div ul {
+
+.get-in-touch h1 {
+  color: #e0e0e0;
+  font-weight: normal;
+  font-size: 40px;
+  margin-left: 117px;
+  margin-top: 47px;
+  margin-bottom: 0;
+}
+
+.get-in-touch h3 {
+  color: #e0e0e0;
+  font-weight: normal;
+  font-size: 24px;
+  margin-left: 119px;
+  margin-top: -2px;
+}
+
+.contact_form {
+  display: inline-block;
+  float: left;
+  position: relative;
+  width: 63.5%;
+  left: 77px;
+  top: -15px;
+}
+
+.contact_form ul {
   list-style: none;
+  font-family: "Lato", sans-serif;
 }
+
 
 .contact_div input, textarea {
-  background-color: #454545;
-  color: #8e8e8e;
-  font-family: "Lato", sans-serif;
+  height: 13px;
+  margin-bottom: 22px;
+  background: rgba(255,255,255,.1);
+  color: #e0e0e0;
   font-weight: bold;
+  border: none;
+  border-radius: 1px;
+  width: 95%;
+  padding: 18px;
+}
+
+::-webkit-input-placeholder {color:#e0e0e0;}
+::-moz-placeholder          {color:#e0e0e0;}
+:-ms-input-placeholder      {color:#e0e0e0;}
+
+.contact_div textarea{
+  height: 160px;
+
+}
+
+.contact_div input:focus, textarea:focus {
+  box-shadow: 0 0 10px #1fb49d;
+  border: 1px solid #1fb49d;
+}
+
+#send {
+  display: inline-block;
+  position: relative;
+  width: 118px;
+  height: 48px;
+  float: right;
+  top: -18px;
+  background-color: #1fb49d;
+}
+
+aside {
+  display: inline-block;
+  position: relative;
+  width: 240px;
+  font-size: 16px;
+  line-height: 1.7em;
+  font-family: "Lato", sans-serif;
+  text-align: justify;
+  color: #e0e0e0;
+  left: 100px;
+  top: -20px;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+
+}
+
+.contacts {
+  position: relative;
+  left: -28px;
+  top: 40px;
+}
+
+.contacts li {
+  list-style: none;
+  position: relative;
+  left: -20px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.location img{
+  margin-right: 20px;
+  width: 9px;
+}
+
+.phone img{
+  margin-right: 11px;
+  width: 14px;
+}
+
+.mail img{
+  margin-right: 13px;
+  width: 16px;
+}
+
+footer {
+  display: inline-block;
+  width: 100%;
+  background-color: #222;
+  color: rgba(69, 69, 69, 255);
+  font-family: "Maven Pro", sans-serif;
+}
+footer p {
+  font-size: 16px ;
+  margin-left: 50px;
 }
