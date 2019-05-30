@@ -1,22 +1,22 @@
 body {
-    font-family: "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
   margin: 0;
 }
 
 .about-me {
-    background-color: #2eb398;
-    width: 100%;
-    height: 445px;
-
+  background-color: #2eb398;
+  height: 445px;
+  width: 100%;
 }
 
 .about-me .inner{
-    display: inline-block;
-    border-left: 1px solid #219d84;
-    border-right: 1px solid #219d84;
-    margin: 18px 130px;
-    color: #fff;
-    height: 410px;
+  border-left: 1px solid #219d84;
+  border-right: 1px solid #219d84;
+  color: #fff;
+  display: inline-block;
+  height: 410px;
+  margin: 18px 130px;
+
 }
 
 .inner .author {
@@ -66,13 +66,13 @@ body {
   float: left;
 }
 
-.contact_me {
+.contact-me {
   background-color: #323232;
   display: block;
   padding: 16px 37px 16px 37px;
 }
 
-.contact_div {
+.contact-div {
   border-top: 1px solid #2b2b2b;
   border-bottom: 1px solid #2b2b2b;
 }
@@ -100,7 +100,7 @@ body {
   margin-top: -2px;
 }
 
-.contact_form {
+.contact-form {
   display: inline-block;
   float: left;
   position: relative;
@@ -109,13 +109,13 @@ body {
   top: -15px;
 }
 
-.contact_form ul {
+.contact-form ul {
   list-style: none;
   font-family: "Lato", sans-serif;
 }
 
 
-.contact_div input, textarea {
+.contact-div input, textarea {
   height: 13px;
   margin-bottom: 22px;
   background: rgba(255,255,255,.1);
@@ -136,7 +136,7 @@ body {
 
 }
 
-.contact_div input:focus, textarea:focus {
+.contact-div input:focus, textarea:focus {
   box-shadow: 0 0 10px #1fb49d;
   border: 1px solid #1fb49d;
 }
