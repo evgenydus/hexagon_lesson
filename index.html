@@ -1,123 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link href="styles.css" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Lato|Maven+Pro&display=swap" rel="stylesheet">
-      <title>Smith Anderson - Home</title>
-    </head>
-    <body>
-        <header>
-        <nav>
+  <head>
+    <meta charset="UTF-8">
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    >
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Maven+Pro&display=swap" rel="stylesheet">
+    <title>Smith Anderson - Home</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Portfolio</li>
+          <li>About</li>
+          <li>
+            <div class="triangle"></div>
+          </li>
+          <li>Blog</li>
+          <li>Get in touch</li>
+        </ul>
+      </nav>
+    </header>
+
+    <section> <!-- Monster hexagons --></section>
+
+    <section class="about-me"> <!-- About me -->
+      <div class="inner">
+        <img src="/pics/author.png" alt="Smith Anderson" class="author"/>
+        <div class="about-text">
+          <h1>Smith Anderson</h1>
+          <h3>Illustrator & Character Designer</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
+        </div>
+        <div class="socials">
+          <img src="pics/facebook.png" alt="facebook"/>
+          <img src="pics/twitter.png" alt="twitter"/>
+          <img src="pics/google.png" alt="google"/>
+          <img src="pics/pinterest.png" alt="pinterest"/>
+          <img src="pics/linkedin.png" alt="linkedin"/>
+          <img src="pics/dribbble.png" alt="dribble">
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-me"> <!-- Contacts -->
+      <div class="contact-div">
+        <div class="get-in-touch">
+          <h1>Get In Touch</h1>
+          <h3>In order to get in touch use the contact form bellow:</h3>
+          <div class="contact-form">
             <ul>
-                <li>Portfolio</li>
-                <li>About</li>
-                <li><div class="triangle"></div></li>
-                <li>Blog</li>
-                <li>Get in touch</li>
+              <li>
+                <label for="name">
+                  <input id="name" type="text" name="name" required placeholder="Name (Required)">
+                </label>
+              </li>
+              <li>
+                <label for="email">
+                  <input id="email" type="text" name="email" required placeholder="Email (Required)">
+                </label>
+              </li>
+              <li>
+                <label for="subject">
+                  <input id="subject" type="text" name="subject" placeholder="Subject">
+                </label>
+              </li>
+              <li>
+                <label for="message">
+                  <textarea id="message" name="message" rows="5" cols="20" placeholder="Write your message here..."></textarea>
+                </label>
+              </li>
             </ul>
-        </nav>
-        </header>
-
-        <section> <!-- Monster hexagons -->
-
-
-        </section>
-
-
-        <section class="about-me"> <!-- About me -->
-            <div class="inner">
-
-              <img src="/pics/author.png" alt="Smith Anderson" class="author"/>
-
-              <div class="about-text">
-                <h1>Smith Anderson</h1>
-                <h3>Illustrator & Character Designer</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
-              </div>
-
-              <div class="socials">
-                <img src="pics/facebook.png" alt="facebook"/>
-                <img src="pics/twitter.png" alt="twitter"/>
-                <img src="pics/google.png" alt="google"/>
-                <img src="pics/pinterest.png" alt="pinterest"/>
-                <img src="pics/linkedin.png" alt="linkedin"/>
-                <img src="pics/dribbble.png" alt="dribble">
-              </div>
+            <label for="send">
+              <input id="send" type="submit" name="send" value="SEND">
+            </label>
+          </div>
+          <aside>
+            <p>
+              <strong>Quisque Hendrerit:</strong> purus dapibus, ornare nibh vitae, viverra nibh.
+              Fusce vitae aliquam tellus. Proin sit amet volutpat libero.
+              Nulla sed nunc et tortor luctus faucibus morbi vitae.
+            </p>
+            <div class="contacts">
+              <ul>
+                <li class="location">
+                  <img src="pics/location.png" alt="location"/>
+                  Elm St. 14/05 Lost City
+                </li>
+                <li class="phone">
+                  <img src="pics/phone.png" alt="phone"/>
+                  + 3528 331 86 35
+                </li>
+                <li class="mail">
+                  <img src="pics/mail.png">
+                  info@hexalcorp.com
+                </li>
+              </ul>
             </div>
-        </section>
-
-
-        <section class="contact-me"> <!-- Contacts -->
-
-            <div class="contact-div">
-              <div class="get-in-touch">
-
-                <h1>Get In Touch</h1>
-                <h3>In order to get in touch use the contact form bellow:</h3>
-
-                <div class="contact-form">
-
-                  <ul>
-                    <li>
-                      <label for="name">
-                        <input id="name" type="text" name="name" required placeholder="Name (Required)">
-                      </label>
-                    </li>
-
-                    <li>
-                      <label for="email">
-                        <input id="email" type="text" name="email" required placeholder="Email (Required)">
-                      </label>
-                    </li>
-
-                    <li>
-                      <label for="subject">
-                        <input id="subject" type="text" name="subject" placeholder="Subject">
-                      </label>
-                    </li>
-
-                    <li>
-                      <label for="message">
-                        <textarea id="message" name="message" rows="5" cols="20" placeholder="Write your message here..."></textarea>
-                    </label>
-                    </li>
-                  </ul>
-
-                  <label for="send">
-                    <input id="send" type="submit" name="send" value="SEND">
-                  </label>
-                </div>
-
-                <aside>
-                  <p>
-                    <strong>Quisque Hendrerit:</strong> purus dapibus, ornare nibh vitae, viverra nibh.
-                    Fusce vitae aliquam tellus. Proin sit amet volutpat libero.
-                    Nulla sed nunc et tortor luctus faucibus morbi vitae.
-                  </p>
-
-                  <div class="contacts">
-                    <ul>
-                      <li class="location">
-                        <img src="pics/location.png" alt="location"/>
-                        Elm St. 14/05 Lost City
-                      </li>
-                      <li class="phone">
-                        <img src="pics/phone.png" alt="phone"/>
-                        + 3528 331 86 35
-                      </li>
-                      <li class="mail">
-                        <img src="pics/mail.png">
-                        info@hexalcorp.com
-                      </li>
-                    </ul>
-                  </div>
-                </aside>
-              </div>
-            </div>
-        </section>
-
-        <footer>
-            <p>&copy; Copyright 2013 by PSDchat</p>
-        </footer>
-    </body>
+          </aside>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; Copyright 2013 by PSDchat</p>
+    </footer>
+  </body>
 </html>
