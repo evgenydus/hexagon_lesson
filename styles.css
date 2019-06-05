@@ -10,8 +10,9 @@ body {
 }
 
 .about-me .inner{
-  border-left: 1px solid #219d84;
-  border-right: 1px solid #219d84;
+  border: 1px solid #219d84;
+  border-bottom: 0;
+  border-top: 0;
   color: #fff;
   display: inline-block;
   height: 410px;
@@ -68,8 +69,9 @@ body {
 
 .contact-me {
   background-color: #323232;
-  display: block;
+  display: inline-block;
   padding: 16px 37px 16px 37px;
+  width: 100%;
 }
 
 .contact-div {
@@ -115,7 +117,7 @@ body {
 }
 
 
-.contact-div input, textarea {
+.contact-div input, #message {
   height: 13px;
   margin-bottom: 22px;
   background: rgba(255,255,255,.1);
@@ -131,9 +133,8 @@ body {
 ::-moz-placeholder          {color:#e0e0e0;}
 :-ms-input-placeholder      {color:#e0e0e0;}
 
-.contact_div textarea{
-  height: 160px;
-
+#message {
+  min-height: 160px;
 }
 
 .contact-div input:focus, textarea:focus {
@@ -171,7 +172,8 @@ aside {
 .contacts {
   position: relative;
   left: -28px;
-  top: 40px;
+  min-width: 270px;
+  top: 35px;
 }
 
 .contacts li {
@@ -182,17 +184,17 @@ aside {
   font-size: 16px;
 }
 
-.location img{
-  margin-right: 20px;
+.location-img{
+  margin-right: 15px;
   width: 9px;
 }
 
-.phone img{
+.phone-img{
   margin-right: 11px;
   width: 14px;
 }
 
-.mail img{
+.mail-img{
   margin-right: 13px;
   width: 16px;
 }
