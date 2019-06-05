@@ -3,6 +3,70 @@ body {
   margin: 0;
 }
 
+.nav-block {
+  background-color: #323232;
+  display: inline-block;
+  width: 100%;
+  max-height: 70px;
+}
+
+.menu {
+  position: relative;
+  /*border: 1px solid white;*/
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo {
+  display: inline-block;
+  position: relative;
+  top: 15px;
+  min-width: 75px;
+  margin: 0 35px;
+  /*border: 1px solid white;*/
+}
+
+header::after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 60px 0 60px;
+  border-color: #323232 transparent transparent transparent;
+  z-index: -1;
+}
+
+.menu h1 {
+  color: #e0e0e0;
+  display: inline-block;
+  position: relative;
+  top: -25px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+}
+
+.menu h1:hover {
+  color: #219d84;
+}
+
+.about {
+  margin-left: 20px;
+}
+
+.blog {
+  margin-right: 20px;
+}
+
+.monster-block {
+  height: 400px;
+}
 .about-me {
   background-color: #2eb398;
   height: 445px;
@@ -23,7 +87,7 @@ body {
 .inner .author {
   display: inline-block;
   width: 235px;
-  margin: 68px 25px 0px 25px;
+  margin: 68px 25px 0 25px;
   float: left;
 }
 
@@ -82,7 +146,7 @@ body {
 .get-in-touch {
   display: inline-block;
   width: 100%;
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
 .get-in-touch h1 {
@@ -106,7 +170,7 @@ body {
   display: inline-block;
   float: left;
   position: relative;
-  width: 63.5%;
+  width: 63%;
   left: 77px;
   top: -15px;
 }
