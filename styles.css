@@ -28,9 +28,9 @@ body {
 }
 
 .header::after {
+  border-color: #323232 transparent transparent transparent;
   border-style: solid;
   border-width: 35px 60px 0 60px;
-  border-color: #323232 transparent transparent transparent;
   content: "";
   left: 50%;
   position: absolute;
@@ -72,17 +72,17 @@ body {
 }
 
 .blog::after {
+  color: #e0e0e0;
   content: "\22C5";
   margin-left: 10px;
   margin-right: 10px;
-  color: #e0e0e0;
 }
 
 .hex-line {
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   height: 210px;
-  width: 195px;
   margin: 0 10px;
+  width: 195px;
 }
 
 .left-line {
@@ -173,8 +173,8 @@ body {
 
 .about-text {
   display: inline-block;
-  margin-top: 80px;
   margin-right: 25px;
+  margin-top: 80px;
   position: absolute;
 }
 
@@ -187,10 +187,10 @@ body {
 }
 
 .profession {
+  color: #20816d;
   font-family: "Maven pro", sans-serif;
   font-size: 24px;
   font-weight: normal;
-  color: #20816d;
   margin-top: 0;
 }
 
@@ -219,4 +219,171 @@ body {
   filter: none;
   opacity: 1;
   transition: .3s ease;
+}
+
+.contact-me {
+  background-color: #323232;
+  padding: 16px 37px;
+}
+
+.contact-div {
+  border-bottom: 1px solid #2b2b2b;
+  border-top: 1px solid #2b2b2b;
+}
+
+.get-in-touch {
+  color: #e0e0e0;
+  font-family: "Maven pro", sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  margin: 47px 0 0 115px;
+}
+
+.form-head {
+  color: #e0e0e0;
+  font-family: "Maven pro", sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  margin: -2px 0 25px 115px;
+}
+
+.contact-form {
+  display: inline-block;
+  margin-left: 115px;
+  position: relative;
+  width: 60%;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+/*Don't forget about Autofill options*/
+
+.field {
+  background: rgba(255,255,255,.1);
+  border: none;
+  border-radius: 1px;
+  box-sizing: border-box;
+  color: #e0e0e0;
+  font-family: "Lato", sans-serif;
+  height: 13px;
+  margin-bottom: 22px;
+  outline: none;
+  padding: 18px;
+  transition: 0.2s box-shadow ease-in;
+  width: 100%;
+}
+
+.field::-webkit-input-placeholder {
+  color:#e0e0e0;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+}
+
+.field::-moz-placeholder {
+  color:#e0e0e0;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+}
+
+.field:-ms-input-placeholder {
+  color:#e0e0e0;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+}
+
+.message {
+  min-height: 160px;
+}
+
+.field:hover {
+  box-shadow: 0 0 10px #1fb49d;
+}
+
+.field:focus {
+  box-shadow: 0 0 10px #1fb49d;
+}
+
+.button {
+  background-color: #1fb49d;
+  border: none;
+  border-radius: 1px;
+  color: #e0e0e0;
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  height: 48px;
+  margin-bottom: 80px;
+  outline: none;
+  position: relative;
+  transition: 0.2s box-shadow ease-in;
+  width: 118px;
+}
+
+.button:hover {
+  box-shadow: 0 0 5px #1fb49d;
+}
+
+.aside {
+  color: #e0e0e0;
+  display: inline-block;
+  float: right;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  position: relative;
+  right: 120px;
+  text-align: justify;
+  width: 240px;
+}
+
+.aside-text {
+  margin: 0;
+}
+
+.contacts {
+  margin-top: 25px;
+  padding-left: 10px;
+}
+
+.location,
+.phone,
+.mail {
+  font-size: 16px;
+  left: -20px;
+  list-style: none;
+  padding-left: 10px;
+  position: relative;
+}
+
+.location-img{
+  margin-right: 15px;
+  width: 9px;
+}
+
+.phone-img{
+  margin-right: 11px;
+  width: 14px;
+}
+
+.mail-img{
+  margin-right: 13px;
+  width: 16px;
+}
+
+.footer {
+  background-color: #222;
+  color: rgba(69, 69, 69, 255);
+  display: inline-block;
+  font-family: "Maven Pro", sans-serif;
+  width: 100%;
+}
+
+.footer-text {
+  font-size: 16px ;
+  margin-left: 50px;
 }
