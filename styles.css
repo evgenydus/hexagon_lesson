@@ -28,9 +28,9 @@ body {
 }
 
 .header::after {
+  border-color: #323232 transparent transparent transparent;
   border-style: solid;
   border-width: 35px 60px 0 60px;
-  border-color: #323232 transparent transparent transparent;
   content: "";
   left: 50%;
   position: absolute;
@@ -72,17 +72,17 @@ body {
 }
 
 .blog::after {
+  color: #e0e0e0;
   content: "\22C5";
   margin-left: 10px;
   margin-right: 10px;
-  color: #e0e0e0;
 }
 
 .hex-line {
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   height: 210px;
-  width: 195px;
   margin: 0 10px;
+  width: 195px;
 }
 
 .left-line {
@@ -173,8 +173,8 @@ body {
 
 .about-text {
   display: inline-block;
-  margin-top: 80px;
   margin-right: 25px;
+  margin-top: 80px;
   position: absolute;
 }
 
@@ -187,10 +187,10 @@ body {
 }
 
 .profession {
+  color: #20816d;
   font-family: "Maven pro", sans-serif;
   font-size: 24px;
   font-weight: normal;
-  color: #20816d;
   margin-top: 0;
 }
 
@@ -219,4 +219,158 @@ body {
   filter: none;
   opacity: 1;
   transition: .3s ease;
+}
+
+.contact-me {
+  background-color: #323232;
+  padding: 16px 37px;
+}
+
+.contact-me .container {
+  font-size: 0;
+}
+
+.contact-div {
+  border-bottom: 1px solid #2b2b2b;
+  border-top: 1px solid #2b2b2b;
+  color: #e0e0e0;
+  font-family: "Maven pro", sans-serif;
+  padding: 80px 115px;
+}
+
+.get-in-touch {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.form-head {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+
+.contact-form {
+  display: inline-block;
+  width: 70%;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.field {
+  background: rgba(255,255,255,.1);
+  border: none;
+  box-sizing: border-box;
+  color: #e0e0e0;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 22px;
+  outline: none;
+  padding: 15px;
+  transition: 0.2s box-shadow ease-in;
+  width: 100%;
+}
+
+.field::placeholder {
+  color:#e0e0e0;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+}
+
+.message {
+  max-height: 160px;
+}
+
+.field:hover,
+.field:focus {
+  box-shadow: 0 0 10px #1fb49d;
+}
+
+.button-container {
+  text-align: right;
+}
+
+.button {
+  background-color: #1fb49d;
+  border: none;
+  color: #e0e0e0;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  outline: none;
+  padding: 15px 35px;
+  transition: 0.2s box-shadow ease-in;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  box-shadow: 0 0 5px #1fb49d;
+}
+
+.aside {
+  color: #e0e0e0;
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  padding-left: 40px;
+  position: relative;
+  text-align: justify;
+  vertical-align: top;
+  width: 30%;
+}
+
+.aside-text {
+  margin: 0;
+}
+
+.contacts {
+  margin-top: 25px;
+  padding-left: 10px;
+}
+
+.location,
+.phone,
+.mail {
+  font-size: 16px;
+  left: -20px;
+  list-style: none;
+  padding-left: 10px;
+  position: relative;
+}
+
+.location-image{
+  margin-right: 15px;
+  width: 9px;
+}
+
+.phone-image{
+  margin-right: 11px;
+  width: 14px;
+}
+
+.mail-image{
+  margin-right: 13px;
+  width: 16px;
+}
+
+.mailto {
+  color: #e0e0e0;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #222;
+  color: #3D3D3D;
+  font-family: "Maven Pro", sans-serif;
+  padding: 15px;
+}
+
+.footer-text {
+  font-size: 16px ;
+  margin-left: 50px;
 }
