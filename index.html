@@ -77,7 +77,7 @@
       </svg>
       <div class="bottom-line"></div>
     </section>
-    <section class="about-me"> <!-- About me -->
+    <section class="about-me">
       <div class="inner">
         <img src="pics/author.png" alt="Smith Anderson" class="author"/>
         <div class="about-text">
@@ -101,38 +101,43 @@
         </div>
       </div>
     </section>
-    <section class="contact-me"> <!-- Contacts -->
+    <section class="contact-me">
       <div class="contact-div">
         <h1 class="get-in-touch">Get In Touch</h1>
         <h3 class="form-head">In order to get in touch use the contact form bellow:</h3>
-        <div class="contact-form">
-          <input class="field" id="name" name="name" type="text" required placeholder="Name (Required)">
-          <input class="field" id="email" name="email" type="text" required placeholder="Email (Required)">
-          <input class="field" id="subject" name="subject" type="text" placeholder="Subject">
-          <textarea class="field message" id="message" name="message" rows="20" cols="20" placeholder="Write your message here..."></textarea>
-          <input class="button" id="send" type="submit" name="send" value="SEND">
-        </div>
-        <aside class="aside">
-          <p class="aside-text">
-            <strong>Quisque Hendrerit:</strong> purus dapibus, ornare nibh vitae, viverra nibh.
+        <div class="container">
+          <div class="contact-form">
+            <input class="field" id="name" name="name" type="text" required placeholder="Name (Required)">
+            <input class="field" id="email" name="email" type="text" required placeholder="Email (Required)">
+            <input class="field" id="subject" name="subject" type="text" placeholder="Subject">
+            <textarea class="field message" id="message" name="message" rows="20" cols="20" placeholder="Write your message here..."></textarea>
+            <div class="button-container">
+              <button class="button" id="send" type="button" name="send">Send</button>
+            </div>
+          </div>
+          <div class="aside">
+            <p class="aside-text">
+              <strong>Quisque Hendrerit:</strong> purus dapibus, ornare nibh vitae, viverra nibh.
               Fusce vitae aliquam tellus. Proin sit amet volutpat libero.
               Nulla sed nunc et tortor luctus faucibus morbi vitae.
-          </p>
+            </p>
             <ul class="contacts">
               <li class="location">
                 <img src="pics/location.png" alt="location" class="location-img"/>
                 Elm St. 14/05 Lost City
-                </li>
+              </li>
               <li class="phone">
                 <img src="pics/phone.png" alt="phone" class="phone-img"/>
-                  + 3528 331 86 35
+                + 3528 331 86 35
               </li>
               <li class="mail">
                 <img src="pics/mail.png" alt="mail" class="mail-img">
-                  info@hexalcorp.com
+                info@hexalcorp.com
               </li>
             </ul>
-        </aside>
+          </div>
+        </div>
+
       </div>
     </section>
     <footer class="footer">
